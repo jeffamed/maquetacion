@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: auto;
+}
+
+header {
+  height: 60vh;
+  background-image: url("../img/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: unset;
+}
+
+header .logo {
+  width: 125px;
+  height: 50px;
+}
+
+header h4 {
+  margin: auto;
+}
+
+header .menu {
+  margin: auto 25%;
+}
+
+header .menuItem {
+  list-style: none;
+}
+
+header .btn-pers {
+  width: 10%;
+}
+
+header .btn-pers i {
+  font-size: 30px;
+}
+
+header .hsecond {
+  margin-top: 5%;
+}
+
+header .cardDesign {
+  margin-top: 10%;
+}
+
+.main {
+  width: 99vw;
+  margin-top: 10%;
+}
+
+.main .bloque {
+  margin: auto;
+}
+
+.main .bloque__color {
+  background-color: #e7e4e4;
+}
+
+footer {
+  height: 3rem;
+  position: static;
+  bottom: 0;
+  background-color: #382e2e;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

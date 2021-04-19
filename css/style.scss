@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: auto;
+}
+
+header{
+    height: 60vh;
+    background-image: url('../img/bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: unset;
+
+    .logo{
+        width: 125px;
+        height: 50px;
+    }
+    h4{
+        margin: auto;
+    }
+    .menu{
+        margin: auto 25%;
+        &Item{
+           list-style: none; 
+        }
+    }
+    .btn-pers{
+        width: 10%;
+        i{
+            font-size: 30px;
+        }
+    }
+    .hsecond{
+        margin-top: 5%;
+    }
+
+    .cardDesign{
+        margin-top: 10%;
+    }
+}
+
+.main{
+    width: 99vw;
+    margin-top: 10%;
+    .bloque{
+        margin: auto;
+        &__color{
+            background-color: hsl(0,5,90);
+        }
+    }
+}
+
+footer{
+    height: 3rem;
+    position: static;
+    bottom: 0;
+    background-color: hsl(0,10,20);
+    width: 100%;
+}
