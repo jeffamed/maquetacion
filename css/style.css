@@ -36,6 +36,8 @@ header .menuItem {
 
 header .btn-pers {
   width: 10%;
+  border-radius: 30px;
+  color: #141452;
 }
 
 header .btn-pers i {
@@ -60,14 +62,15 @@ header .mt-10 {
 }
 
 .main .bloque__deg {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#333399), to(#267326));
-  background-image: linear-gradient(#333399, #267326);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#333399), to(#267326)), url("../img/line.png");
+  background-image: linear-gradient(#333399, #267326), url("../img/line.png");
 }
 
 .main .btn-personal {
   min-width: 150px;
   max-width: 250px;
   height: 50px;
+  border-radius: 25px;
   background-color: #141452;
   color: #ffffff;
   font-weight: bold;
