@@ -1,14 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
-  overflow: auto;
+  overflow-x: hidden;
 }
 
 header {
-  height: 60vh;
+  height: 70vh;
   background-image: url("../img/bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -40,16 +42,12 @@ header .btn-pers i {
   font-size: 30px;
 }
 
-header .hsecond {
-  margin-top: 5%;
-}
-
-header .cardDesign {
+header .mt-10 {
   margin-top: 10%;
 }
 
 .main {
-  width: 99vw;
+  width: 100%;
   margin-top: 10%;
 }
 
@@ -61,11 +59,39 @@ header .cardDesign {
   background-color: #e7e4e4;
 }
 
+.main .btn-personal {
+  width: 150px;
+  height: 50px;
+  background-color: #141452;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main .iconos {
+  width: 200px;
+  height: 200px;
+  padding: 0.3rem;
+  margin-left: 1rem;
+  font-size: 25px;
+  border-radius: 50%;
+  color: white;
+  background-color: #141452;
+}
+
+.main .imgservices {
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+  margin: auto;
+  padding: 0;
+}
+
 footer {
   height: 3rem;
   position: static;
   bottom: 0;
-  background-color: #382e2e;
+  background-color: #333333;
   width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
