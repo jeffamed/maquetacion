@@ -11,10 +11,10 @@ body {
 
 header {
   height: 60vh;
-  background-image: url("../img/bg2.jpg");
+  background-image: url("../img/bg3.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: unset;
+  background-attachment: unset;
 }
 
 header .logo {

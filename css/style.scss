@@ -10,10 +10,11 @@ body {
 
 header {
     height: 60vh;
-    background-image: url('../img/bg2.jpg');
+    background-image: url('../img/bg3.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: unset;
+    background-attachment: unset;
+    
     .logo {
         width: 125px;
         height: 50px;
@@ -47,7 +48,7 @@ header {
             background-color: hsl(0, 5, 90);
         }
         &__deg{
-            background-image: linear-gradient(hsl(240,50,40), hsl(120,50,30));
+            background-image: linear-gradient(hsl(240,50,40),  hsl(120,50,30));
         }
     }
     .btn-personal {
